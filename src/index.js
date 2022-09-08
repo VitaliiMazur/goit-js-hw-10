@@ -47,7 +47,6 @@ function onInput(evt) {
 }
 
 function showCountriesList(data) {
-  // console.log(data);
   const markup = data
     .map(({ flags, name }) => {
       return `<li class = "country-item"><img src="${flags.svg}" alt="flag of ${name.official}" class = "country-img">${name.official}</li>`;
@@ -58,7 +57,6 @@ function showCountriesList(data) {
 }
 
 function showCountry(country) {
-  // console.log(country);
   const {
     flags: { svg },
     name: { official },
