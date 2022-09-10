@@ -2,14 +2,14 @@
   "name": "goit-js-hw-10.git",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://vitaliimazur.github.io/goit-js-hw-10",
+  "homepage": "https://VitaliiMazur.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
